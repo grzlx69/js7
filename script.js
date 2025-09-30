@@ -54,10 +54,8 @@
 
 // great.forEach(element => console.log(element))
 
-let professions;
-
 while(professions !== 9){
-    professions = Number(prompt("Введите профессию, о которой хотите узнать: 1 - BACKEND РАЗРАБОТЧИК | 2 - FRONTEND РАЗРАБОТЧИК | 3 FULL-STACK РАЗРАБОТЧИК | 4 DESKTOP РАЗРАБОТЧИК | 5 МОБИЛЬНЫЙ РАЗРАБОТЧИК | 6 ГРАФИЧЕСКИЙ РАЗРАБОТЧИК | 7 QA | 8 - ДРУГИЕ | 9 - ВЫЙТИ"));
+    let professions = Number(prompt("Введите профессию, о которой хотите узнать: 1 - BACKEND РАЗРАБОТЧИК | 2 - FRONTEND РАЗРАБОТЧИК | 3 FULL-STACK РАЗРАБОТЧИК | 4 DESKTOP РАЗРАБОТЧИК | 5 МОБИЛЬНЫЙ РАЗРАБОТЧИК | 6 ГРАФИЧЕСКИЙ РАЗРАБОТЧИК | 7 QA | 8 - ДРУГИЕ | 9 - ВЫЙТИ"));
     if (professions == 1){
         alert("Бэкенд-разработчик — это программист, который работает над внутренней частью веб-ресурсов");
         }else if(professions == 2){
@@ -76,6 +74,7 @@ while(professions !== 9){
             prompt("Введите свою профессию: ")
     }else if(professions == 9){
         alert("Выход из программы.")
+        break
     }else{
         alert("Ошибка. Выберите число от 1 до 9.")
     }
