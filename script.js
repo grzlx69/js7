@@ -54,7 +54,7 @@
 
 // great.forEach(element => console.log(element))
 
-while(professions !== 9){
+while(true){
     let professions = Number(prompt("Введите профессию, о которой хотите узнать: 1 - BACKEND РАЗРАБОТЧИК | 2 - FRONTEND РАЗРАБОТЧИК | 3 FULL-STACK РАЗРАБОТЧИК | 4 DESKTOP РАЗРАБОТЧИК | 5 МОБИЛЬНЫЙ РАЗРАБОТЧИК | 6 ГРАФИЧЕСКИЙ РАЗРАБОТЧИК | 7 QA | 8 - ДРУГИЕ | 9 - ВЫЙТИ"));
     if (professions == 1){
         alert("Бэкенд-разработчик — это программист, который работает над внутренней частью веб-ресурсов");
